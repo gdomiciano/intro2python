@@ -6,6 +6,12 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9idu6GZ8EU_5B6WpKTdYZbK
 
 > type() - check the type of a element(object)
 > len() - check the length of a element(object)
+> set() - does not show duplicated values from a object, however does not put it in order
+> sorted() - sort elements in numerical or alphabetical order (first it sorts capital letters and then lower case):
+```python
+>>> sorted(names)
+['Amora', 'Geisy', 'ariana', 'geisy', 'luna', 'melina', 'raquel']
+```
 
 ### Numbers
 **return a float**
