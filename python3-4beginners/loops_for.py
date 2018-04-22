@@ -17,7 +17,7 @@ for ninja in ninjas:
 for ninja in ninjas:
   if ninja == 'yoshi':
     print(f'{ninja} - black belt')
-    break;
+    break
   else:
     print(ninja)
 
