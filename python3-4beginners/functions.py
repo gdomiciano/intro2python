@@ -1,16 +1,16 @@
-# def greet(name, time):
-#   print(f'Good {time} {name}, hope you are well')
+def greet(name, time):
+  print(f'Good {time} {name}, hope you are well')
 
-# name = input('Enter your name: ')
-# time = input('Enter the time: ')
+name = input('Enter your name: ')
+time = input('Enter the time: ')
 
-# greet(name, time)
+greet(name, time)
 
-# #defaul parameters / optional arguments
-# def greet(name = 'Gey', time='morning'):
-#   print(f'Good {time} {name}, hope you are well')
+#defaul parameters / optional arguments
+def greet(name = 'Gey', time='morning'):
+  print(f'Good {time} {name}, hope you are well')
 
-# greet()
+greet()
 
 def area(radius):
   return 3.142 * radius * radius
